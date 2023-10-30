@@ -6,7 +6,6 @@
 - Быть полностью готовым к работе с Git. 
 ## Настройка имени и адреса электронной почты
 Если вы никогда раньше не использовали git, сначала вам нужно указать свое имя и адрес электронной почты. Выполните следующие команды, чтобы сообщить git ваше имя и адрес электронной почты. Если git уже установлен, перейдите к концу строки.
-
 ```bash
 git config --global user.name «Ваше имя»
 git config --global user.email "your_email@whatever.com" 
@@ -19,3 +18,8 @@ git config --global core.autocrlf input
 git config --global core.safecrlf warn
 ```
 
+Для пользователей Windows: 
+```bash
+git config --global core.autocrlf true
+git config --global core.safecrlf warn
+```
