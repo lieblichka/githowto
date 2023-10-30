@@ -31,17 +31,3 @@ git config --global core.safecrlf warn
 git config --global core.autocrlf true
 git config --global core.safecrlf warn
 ```
----
-# 2. Создание проекта 
-Цели
-- Узнать, как создать git-репозиторий с нуля. 
-## 2.1 Создайте надпись «Hello, World!» страница 
-Начните работу в пустом рабочем каталоге (например, work, если вы загрузили файл на предыдущем шаге) и создайте пустой каталог с именем «hello», затем создайте hello.htmlфайл в нем со следующим содержимым. 
-```bash
-mkdir hello
-cd hello
-touch hello.html
-```
-```html
-Hello, World!
-```
