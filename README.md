@@ -10,7 +10,15 @@
 git config --global user.name «Ваше имя»
 git config --global user.email "your_email@whatever.com" 
 ```
+Результат:
+```bash
+git config --global user.name &&  git config --global user.email
+```
 
+```
+Your_name
+Your_email@whatever.com
+```
 ## Варианты установки: окончания строк
 Также для пользователей Unix/Mac:
 ```bash
